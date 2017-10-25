@@ -13,9 +13,9 @@ Também é inserida uma senha para essa conta. Por questões de segurança é me
 essa senha depois da instalação.  
 Vamos usar o `Transact-SQL` para alterar a senha:  
 
-`sudo docker exec -it sqlserver1 /opt/mssql-tools/bin/sqlcmd \
-   -S localhost -U SA -P '<senha_forte>' \
-   -Q 'ALTER LOGIN SA WITH PASSWORD="Nova_Senha_Forte"'`
+`sudo docker exec -it sqlserver1 /opt/mssql-tools/bin/sqlcmd \  
+   -S localhost -U SA -P '<senha_forte>' \  
+   -Q 'ALTER LOGIN SA WITH PASSWORD="Nova_Senha_Forte"'`  
 
 * A primeira linha usa o `exec` para acessar o `sqlcmd` para inserirmos os comandos.
 * A segunda linha define o servidor `-S localhost` e usuário e senha que serão acessados `-U SA -P '<senha_forte>'`.
@@ -24,7 +24,7 @@ Vamos usar o `Transact-SQL` para alterar a senha:
 
 ### Conectando-se ao servidor
 
-  Entre dentro do servido com:  
+  Entre dentro do servidor com:  
 
   `docker exec -it sqlserver1 "bash"`  
 
