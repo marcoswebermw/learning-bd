@@ -4,7 +4,7 @@ MongoDB é um banco open source orientado a documento.
 Os seus dados são armazenados no formato `BSON` parecido com o `JSON`.  
 Suas consultas são feitas em JavaScript.  
   
-## Documentos  
+### Documentos  
   
 Documentos são armazenados em `coleções`, e não tabelas.  
 Os `documentos` são como uma `linha` no modelo relacional.  
@@ -16,5 +16,3 @@ Não existe `esquema` em sgbds baseados em documentos.  Ou seja,
 Cada documento pode ter qualquer campo, ou não.  
 E a agregação é feita por pipeline.  
   
-  
-
