@@ -17,6 +17,8 @@ Os documentos são como as linhas, registros ou tuplas de uma tabela relacional.
   
 `db.novaColecao.find()`  
   
+> Retorna uma lista vazia caso não exista documentos.  
+  
 ### Mostrar todos os documentos de uma coleção em formato mais amigável
   
 `db.novaColecao.find().pretty();`  
@@ -25,10 +27,14 @@ Os documentos são como as linhas, registros ou tuplas de uma tabela relacional.
   
 `db.novaColecao.findOne();`  
   
+> Retorna `null` caso não exista documento.  
+  
 ### Mostrar um documento da coleção de acordo com um filtro
   
 `db.novaColecao.findOne( { nome : 'Beltrano' } );`  
 `db.novaColecao.findOne( { idade : 20 } );`  
+  
+> As chaves `{}` para definir os filtros são chamadas no mongodb de `criteria`.  
   
 ### Indica a quantidade de registros(documentos) na coleção
   
@@ -39,4 +45,7 @@ Os documentos são como as linhas, registros ou tuplas de uma tabela relacional.
 `db.novaColecao.remove( { nome : 'Beltrano' } );`  
 `db.novaColecao.remove( { idade : 20, sexo : 'Masculino' } );`  
   
+### Removendo todos os documentos de uma coleção
+  
+`db.novaColecao.remove( {} );`  
 
