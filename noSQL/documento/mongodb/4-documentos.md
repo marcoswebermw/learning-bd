@@ -8,6 +8,7 @@ Os documentos são como as linhas, registros ou tuplas de uma tabela relacional.
 `db.novaColecao.insert( {nome:"Fulano", idade: 30} );`  
 `db.novaColecao.insert( {nome:"Beltrano", idade: 20, sexo: "Masculino"} );`  
 `db.novaColecao.insert( {nome:"Silcranoooo", idade: 18} );`  
+`db.novaColecao.insert( {nome:"Fulaninha", dataNascimento: new Date(1986, 0, 30)} );` 
   
 ### Inserir ou atualizar um documento JSON (Funciona parecido com o insert) 
   
