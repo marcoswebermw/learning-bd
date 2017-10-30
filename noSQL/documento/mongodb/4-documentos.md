@@ -12,7 +12,13 @@ Os documentos são como as linhas, registros ou tuplas de uma tabela relacional.
   
 ### Inserir ou atualizar um documento JSON (Funciona parecido com o insert) 
   
-`db.novaColecao.save( {'_id' : ObjectId('59f4bcfa1495c0d6281d65f1'), nome: 'Sicrano', idade: 18'} );`
+`db.novaColecao.save( {'_id' : ObjectId('59f4bcfa1495c0d6281d65f1'), nome: 'Sicrano', idade: 18'} );`  
+> É criado um novo documento ou é substituído o documento inteiro diferentemente do update.  
+  
+### Update - Atualizar determinados campos no documento.
+  
+`db.novaColecao.update( {nome:"Fulaninha"}, {$set: {idade: 20, sexo: "Feminino"} } );`  
+> Atualiza somente os campos indicados pelo `$set`.
   
 ### Mostrar todos os documentos de uma coleção
   
