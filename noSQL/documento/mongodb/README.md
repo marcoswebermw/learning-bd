@@ -17,3 +17,5 @@ Não existe `esquema` em sgbds baseados em documentos.  Ou seja,
 Cada documento pode ter qualquer campo, ou não.  
 E a agregação é feita por pipeline.  
   
+Bancos orientados a documento evitam a normalização pois podem perder performance. 
+Então, é frequente o uso de dados duplicados.  
