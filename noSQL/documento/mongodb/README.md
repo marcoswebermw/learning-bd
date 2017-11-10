@@ -19,3 +19,27 @@ E a agregação é feita por pipeline.
   
 Bancos orientados a documento evitam a normalização pois podem perder performance. 
 Então, é frequente o uso de dados duplicados.  
+
+### Vantagens
+  
+Sem esquema o que o torna bastante flexível.  
+Fácil uso o que permite uma curva de aprendizado baixa.  
+Preparado para trabalhar com grandes quantidades de dados.  
+  
+### Desvantagens
+  
+Tem muita redundância gastando mais espaço de disco pois campos podem ser repetidos em vários documentos para aumentar a performance.  
+
+Não tem a flexibilidade das joins em consultas(Apesar das joins prejudicarem a performance das consultas).  
+
+Não tem transações fazendo com que ele não tenha rollbacks.  
+
+### Quando é usado
+  
+* Big Data;
+* Quando há muitas operações de escrita;
+* Busca simples, porém pesadas;
+* Alta escala;
+* Alta disponibilidade;
+* Quando o schema é instável, ou seja, pode variar em cada documento.
+  
