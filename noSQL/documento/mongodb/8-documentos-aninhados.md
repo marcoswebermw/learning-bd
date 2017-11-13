@@ -17,4 +17,13 @@ db.novaColecao.insert(
                       } 
                     );
 
+
+db.novaColecao.updateOne( 
+                         { nome: "Fulano" }, 
+                         { $set: { 
+                                   "endereco.cidade" : "São Paulo" 
+                                  } 
+                          } 
+                         );
+
 ```  
