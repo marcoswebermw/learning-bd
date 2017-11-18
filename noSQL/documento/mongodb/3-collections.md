@@ -15,3 +15,7 @@ A coleções são equivalentes às tabelas no modelo relacional.
   
 `db.novaColecao.drop();`  
   
+### Renomear uma coleção
+  
+`db.novaColecao.renameCollection('velhaColecao');`  
+  
