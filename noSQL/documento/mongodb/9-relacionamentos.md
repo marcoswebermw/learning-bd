@@ -1,6 +1,6 @@
 ## Abordagens de relacionamento no MongoDB
 
-Pode ser usada uma forma parecida com a usada no modelo relacional.  
+Pode ser usada uma forma parecida com a usada no modelo relacional(mas não recomendada).  
 
 Poderia ser usado o id de um documento em uma colecao como chave estrangeira de um documento em outra.  
 
