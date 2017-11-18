@@ -37,8 +37,10 @@ Se o campo não existir, nada acontecerá.
 
 Para alterar o nome de um campo em todos os documentos use `$rename` junto ao `updateMany()`.  
   
-`db.novaColecao.updateMany( {}, { $rename: { 'salario':'remuneracao' } } );` 
-
+`db.novaColecao.updateMany( {}, { $rename: { 'salario':'remuneracao' } } );`  
+  
+Mais de uma campo pode ser renomeado por vez com o `$rename`.  
+  
 ### Existem mais operadores do `update`
   
 Para descobrir mais operadores do `update` acesse a (documentação oficial)[https://docs.mongodb.com/manual/reference/operator/update/].  
