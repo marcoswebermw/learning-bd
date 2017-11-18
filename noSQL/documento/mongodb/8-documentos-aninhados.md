@@ -26,4 +26,8 @@ db.novaColecao.updateOne(
                           } 
                          );
 
+db.novaColecao.find( { "endereco.cidade" : "São Paulo" } );
+
+
+
 ```  
