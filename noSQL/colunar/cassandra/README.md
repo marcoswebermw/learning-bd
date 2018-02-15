@@ -12,7 +12,7 @@ Agora é opensource e gerenciado pelo projeto Apache.  Ele é feito em Java.
   
 Geralmente é usado por grandes empresas que tem dados na casa dos gigabytes e até petabytes.  
   
-Não aceita join.  
+`Não aceita join`.  
    
 Bancos colunares tem o mesmo problema de bancos de documentos e chave valor: N+1 queries e desnormalização dos dados.  
 A desnormalização é boa prática em bancos colunares.  
