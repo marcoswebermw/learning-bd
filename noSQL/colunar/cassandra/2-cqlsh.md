@@ -8,8 +8,8 @@ Podemos manipular os dados de forma parecida com os bancos relacionais.
 INSERT INTO pessoas(id, nome, sobrenome) 
 VALUES (12345678-1234-1234-1234-123456789012, 'Scarlet', 'Ingrid Johanson');  
   
-INSERT INTO pessoas()
-VALUES (12345678-1234-1234-1234-123456789012, 'Margot', 'Elise Robbie');  
+INSERT INTO pessoas(id, nome, sobrenome)
+VALUES (12345678-1234-1234-1234-123456789013, 'Margot', 'Elise Robbie');  
 ```
   
 ### Criando indices
