@@ -1,8 +1,8 @@
 ## Apache Cassandra
 
-O Cassandra é um banco `colunar`, usa `tabela`, não tem esquema(`schemaless` - porém pode ser usado com esquema);  
+O Cassandra é um banco `colunar`, usa `tabela`, não tem esquema(`schemaless` - porém pode ser usado com esquema).  
   
-Os bancos colunares são os bancos nosql que se parecem mais com os relacionais por causa da tabela, mas tirando isto são completamente diferentes;  
+Os bancos colunares são os bancos nosql que se parecem mais com os relacionais por causa da tabela, mas tirando isto, internamente são completamente diferentes.  
   
 O Cassandra foi criado pelo Facebook e foi baseado no banco de dados BigTable do Google.  
   
