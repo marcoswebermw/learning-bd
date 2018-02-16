@@ -69,7 +69,8 @@ CREATE TABLE pessoas(
   
 ### Alterando uma tabela
 
-``      
+`ALTER TABLE pessoas ADD idade;`      
+`ALTER TABLE pessoas ADD cpf set<text>;`      
    
 
 ### Apagando tabelas
