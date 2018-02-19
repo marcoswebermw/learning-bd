@@ -91,5 +91,5 @@ WHERE id_usuario = '3';
   
 ### Referências
   
-[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useSet.html)
-[cassandraufg](https://cassandraufg.wordpress.com/category/modelo-de-dados/)
+[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useSet.html)  
+[cassandraufg](https://cassandraufg.wordpress.com/category/modelo-de-dados/)  
