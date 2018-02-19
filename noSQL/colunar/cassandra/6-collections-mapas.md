@@ -107,7 +107,7 @@ SELECT TTL (nome_usuario) from usuarios WHERE id_usuario = '2';
   
 ### Referências
   
-[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useMap.html)
-[cassandraufg](https://cassandraufg.wordpress.com/category/modelo-de-dados/)
-[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useTTL.html)
+[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useMap.html)  
+[cassandraufg](https://cassandraufg.wordpress.com/category/modelo-de-dados/)  
+[Datastax](https://docs.datastax.com/en/cql/3.3/cql/cql_using/useTTL.html)  
 
