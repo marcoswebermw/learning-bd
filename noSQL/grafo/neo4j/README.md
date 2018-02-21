@@ -28,3 +28,5 @@ Os nós são ligados por linhas, que indicam o tipo de relacionamento, chamadas 
   
 [Site Oficial](https://neo4j.com/)  
 [Neo4j Docs](https://neo4j.com/docs/)  
+[Neo4j Docs Developer manual](https://neo4j.com/docs/developer-manual/current/)  
+[Neo4j Primeiros passos](https://neo4j.com/developer/get-started/)  
