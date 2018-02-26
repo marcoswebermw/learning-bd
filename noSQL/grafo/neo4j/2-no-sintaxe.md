@@ -7,7 +7,7 @@ Formas de declarar um Nó.
 * `()` - Representa um nó anônimo e descaracterizado.  
 * `(uma_variavel)` - Representa uma variável que pode ser referenciada em outra parte da sentença(tem que ser a mesma sentença).  
 * `(:SOU_UM_TIPO)` - A palavra `SOU_UM_TIPO` depois dos `:` representa o tipo da informação.  
-* `{propriedade_1 : "Minha propriedade", propriedade_2 : 2018}` - Dentro de colchetes estão as propriedades que contém informações do tipo chave/valor.  
+* `{propriedade_1 : "Minha propriedade", propriedade_2 : 2018}` - Dentro das chaves estão as propriedades que contém informações do tipo chave/valor.  
   
 Exemplos da Documentação
   
