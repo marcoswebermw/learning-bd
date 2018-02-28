@@ -47,3 +47,46 @@ RETURN lebrom
 MATCH (lebrom:Jogador {nome:"Lebrom James"})-[j:JOGOU]->(franquias:Franquia)
 RETURN franquias.nome, j.temporadas
 ```
+  
+### Usando Alias(Apelidos)
+  
+Para usarmos apelidos para resultados usamos o `AS`.  
+  
+```sql
+// Retornando todos os nós de determinado tipo.
+MATCH (j:Jogador)
+RETURN j AS JOGADOR;
+
+// Retornando todos os nós de determinado tipo.
+MATCH (f:Franquia)
+RETURN f.nome AS Nome_Da_Franquia;
+```
+
+### WHERE
+  
+Até aqui para fazer a filtragem de elementos com o `MATCH` usamos os parâmetros dentro de chaves. Mas essa é apenas uma forma mais resumida de se usar o `WHERE`.  
+  
+O `WHERE` também pode ser usado e, dentro dele podemos usar expressões booleanas com operadores como: `=`, `>`, `<`, `>=`, `<=`, `NOT`, `AND`, `OR`, `XOR`, `IN`, `expressões regulares(=~)` e etc.
+  
+```sql
+// Todos os times que começam com ´C´.
+// Resultado: Cleveland e Chicago Bulls.
+MATCH (f:Franquia)
+WHERE f.nome =~ "C.+"
+RETURN f AS Time
+```
+  
+```sql
+// Times com 5 à 9 títulos ordenados pelo nome.
+// Resp: Chicago Bulls, Golden State Warriors, San Antonio Spurs.
+MATCH (f:Franquia)
+WHERE f.titulos > 4 AND f.titulos < 10
+RETURN f AS Time ORDER BY f.nome
+```
+  
+```sql
+// Retorna o nó que tem nome `Boston Celtics`.
+MATCH (f:Franquia)
+WHERE "Boston Celtics" IN f.nome
+RETURN f AS Time
+```
