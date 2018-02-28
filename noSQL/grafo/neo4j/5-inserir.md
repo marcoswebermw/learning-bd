@@ -56,9 +56,3 @@ CREATE(cleveland:Franquia {nome:"Cleveland Cavaliers", titulos:1})<-[j:JOGOU]-(l
 RETURN lebrom, cleveland
 ```
 
-
-* Criando um novo nó e definido propriedades com o `SET`
-  
-```sql
-
-```
